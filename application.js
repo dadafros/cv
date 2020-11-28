@@ -14,11 +14,11 @@ function download(){
 
 function sendEmail(name, company, email) {
 	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "use a gmail to send email",
-	Password : "passwd for gmail",
-	To : 'sendto',
-	From : "gmail",
+	Host : "smtp.elasticemail.com",
+    Username : "seusitepessoal@gmail.com",
+    Password : "BA2C7772B090E6B9D3D52D9B15303BAE36BD",
+	To : 'davi_bf@outlook.com',
+	From : "seusitepessoal@gmail.com",
 	Subject : "Dowloaded Resume from your site!",
 	Body : "Hello Mr. Frossard, we are glad to tell you that your resume was downloaded from (name, company, email) " + name + ", " + company + ", " + email,
 	}).then(
