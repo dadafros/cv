@@ -14,9 +14,9 @@ function download(){
 
 function sendEmail(name, company, email) {
 	Email.send({
-	Host : "smtp.gmail.com",
+	Host : "smtp.elasticemail.com",
     Username : "seusitepessoal@gmail.com",
-    Password : "ldozxhpyfdzbatad",
+    Password : "C6C345BB3F3BC3D20563244B46ED16784160",
 	To : 'davi_bf@outlook.com',
 	From : "seusitepessoal@gmail.com",
 	Subject : "Dowloaded Resume from your site!",
