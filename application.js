@@ -14,7 +14,7 @@ function download(){
 
 function sendEmail(name, company, email) {
 	Email.send({
-	Host : "smtp.elasticemail.com",
+	Host : "smtp.gmail.com",
     Username : "seusitepessoal@gmail.com",
     Password : "ldozxhpyfdzbatad",
 	To : 'davi_bf@outlook.com',
