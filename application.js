@@ -16,7 +16,7 @@ function sendEmail(name, company, email) {
 	Email.send({
 	Host : "smtp.elasticemail.com",
     Username : "seusitepessoal@gmail.com",
-    Password : "BA2C7772B090E6B9D3D52D9B15303BAE36BD",
+    Password : "ldozxhpyfdzbatad",
 	To : 'davi_bf@outlook.com',
 	From : "seusitepessoal@gmail.com",
 	Subject : "Dowloaded Resume from your site!",
