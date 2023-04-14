@@ -18,7 +18,7 @@ function sendEmail(name, company, email) {
     Username : "dadafrossard@gmail.com",
     Password : "C6C345BB3F3BC3D20563244B46ED16784160",
 	To : 'davi_bf@outlook.com',
-	From : "seusitepessoal@gmail.com",
+	From : "dadafrossard@gmail.com",
 	Subject : "Dowloaded Resume from your site!",
 	Body : "Hello Mr. Frossard, we are glad to tell you that your resume was downloaded from (name, company, email) " + name + ", " + company + ", " + email,
 	}).then(
