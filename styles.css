@@ -4,10 +4,6 @@ form{
   padding-bottom: 1em;
 }
 
-img{
-  border-radius: 50%;
-}
-
 a,
 a:focus,
 a:hover {
@@ -93,5 +89,10 @@ body {
 }
 
 .profile-img {
-  width: 50%;
+  width: 25%;
+  border-radius: 100%;
 }
+
+
+
+
