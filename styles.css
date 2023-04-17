@@ -91,3 +91,7 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+.profile-img {
+  width: 50%;
+}
